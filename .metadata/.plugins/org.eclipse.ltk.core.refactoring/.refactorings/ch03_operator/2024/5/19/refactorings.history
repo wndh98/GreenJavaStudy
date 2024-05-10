@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ch03_operator.Op2&apos; to &apos;Op02&apos;&#x0D;&#x0A;- Original project: &apos;ch03_operator&apos;&#x0D;&#x0A;- Original element: &apos;ch03_operator.Op2&apos;&#x0D;&#x0A;- Renamed element: &apos;ch03_operator.Op02&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Op2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ch03_operator{Op2.java[Op2" matchStrategy="1" name="Op02" qualified="false" references="true" similarDeclarations="false" stamp="1715152109335" textual="false" version="1.0"/>
+</session>

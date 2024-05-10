@@ -1,0 +1,15 @@
+package dataType;
+
+import java.util.Scanner;
+
+//import java.util.Scanner;
+
+public class ScannerEx {
+
+	public static void main(String[] args) {
+		// Scanner를 사용하려면 먼저 객체를 생성해야 함
+	      // - data 소스를 system의 inputstream으로 정함
+		Scanner scan = new Scanner(System.in);
+	}
+
+}

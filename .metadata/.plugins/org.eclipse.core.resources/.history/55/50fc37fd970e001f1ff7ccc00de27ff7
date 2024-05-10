@@ -1,0 +1,20 @@
+package cs04_while_doWhile;
+
+import java.util.Scanner;
+
+public class While05 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int count = 0 ;
+		while(true) {
+			System.out.println("가위(1), 바위(2), 보(3) 중 하나를 입력하세요>>>");
+			int me=sc.nextInt();
+			int com=(int)(Math.random()*3)+1;
+			System.out.printf("나 : %d vs 컴: %d \n",me,com);
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package ch03_operator;
+
+public class Op09 {
+
+	public static void main(String[] args) {
+		//Nan : Not a Number
+		// infinite : ¹«ÇÑ´ë
+		int a = 5;
+		int b = 0;
+		System.out.println(a/b);
+	}
+
+}

@@ -1,0 +1,13 @@
+package cs03_for;
+
+import java.util.Scanner;
+
+public class For07 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//이건 할수있을때까지 해야됩니다 선생님 ^오^
+	}
+
+}

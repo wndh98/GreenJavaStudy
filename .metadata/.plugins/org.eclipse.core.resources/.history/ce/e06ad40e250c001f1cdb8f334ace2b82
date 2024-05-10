@@ -1,0 +1,25 @@
+
+// html 주석<!-- -->
+// css 주석/**/
+// javascript 주석   한줄 주석//  여러줄 주석/**/
+
+// java 주석
+/**
+ * 
+ * @author Administrator
+ * @version 1.0.0
+ * 주석 종료 설명하는 문서
+ * 사용시 javadoc 으로 export 해줘야함
+ */
+
+
+// 한줄 주석 - 대상의 위에 단다
+
+public class Comment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

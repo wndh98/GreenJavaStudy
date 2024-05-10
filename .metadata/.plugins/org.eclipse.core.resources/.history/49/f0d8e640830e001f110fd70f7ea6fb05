@@ -1,0 +1,16 @@
+package cs04_while_doWhile;
+
+public class While02 {
+
+	public static void main(String[] args) {
+		int i=11;
+		System.out.println("카운트 다운 시작");
+		while(i>0) {
+			
+			i--;
+			System.out.println(i);
+		}
+
+	}
+
+}

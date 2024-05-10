@@ -1,0 +1,10 @@
+package dataType;
+import java.util.Scanner;
+
+public class SysCharinput {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

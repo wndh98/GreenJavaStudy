@@ -1,0 +1,17 @@
+package ch03_operator;
+
+public class Op2 {
+	// 비교연산자: 결과값을 boolean 타입으로 반환
+	// >, <, >=, <=, ==, !=
+	public static void main(String[] args) {
+
+		int n1 = 33;
+		int n2 = 10;
+
+		int result;
+		result = n1 + n2;
+		System.out.printf("%d %c %d = %d\n", n1, '+', n2, result);
+
+	}
+
+}

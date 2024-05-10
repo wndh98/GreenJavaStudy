@@ -1,0 +1,11 @@
+package dataType;
+
+public class Dt04 {
+	//문자열(String)은 기본 데이터 타입이 아니다.
+    //참조변수 - 클래스 타입이다.
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

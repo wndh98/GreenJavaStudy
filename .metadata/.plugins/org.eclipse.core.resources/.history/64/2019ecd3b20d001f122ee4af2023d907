@@ -1,0 +1,33 @@
+package backjoon;
+
+import java.util.Scanner;
+
+public class Main {
+
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float sum=0;
+		int count=0;
+		for(int i=0;i<20;i++) {
+			sc.next();
+			float num = sc.nextFloat();
+			String grade = sc.next();
+			
+			System.out.println(grade);
+			if(grade.equals("P")) {
+				System.out.println(1);
+				continue;
+			}
+		
+			sum+=num;
+			count++;
+			
+			
+		}
+		System.out.printf("%.6f",sum/count);
+		sc.close();
+	}
+	
+}

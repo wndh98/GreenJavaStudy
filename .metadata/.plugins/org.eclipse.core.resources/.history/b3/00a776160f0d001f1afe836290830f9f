@@ -1,0 +1,10 @@
+package ch03_operator;
+
+public class Op07 {
+
+	public static void main(String[] args) {
+		//3항식 : 조건식 ? true 의 반환값 : false 의 반환값
+
+	}
+
+}

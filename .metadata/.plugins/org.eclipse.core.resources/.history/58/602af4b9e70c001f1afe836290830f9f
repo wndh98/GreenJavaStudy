@@ -1,0 +1,14 @@
+package dataType;
+
+public class Printf01 {
+
+	public static void main(String[] args) {
+		//printf: 출력할 타입을 지정하고 내용을 뒤에 순서대로 붙여줌
+		//타입 지정: %c: char / %s:String / %d: 정수 / %f: 실수 / %b: boolean
+	    // \(이스케이프 문자): \n: 줄바꾸기, \t: tab, \\:백슬레시 ...
+		
+		System.out.println("문자" + 'A' + "의 코드 값은" + (int)'A' + "이다");
+	}
+
+}
+// 

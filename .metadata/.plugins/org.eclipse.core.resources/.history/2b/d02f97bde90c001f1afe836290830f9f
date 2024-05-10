@@ -1,0 +1,13 @@
+package dataType;
+import java.util.Scanner;
+
+public class SysCharinput {
+
+	public static void main(String[] args) {
+		char a = '0'; // 'A' -> 65
+		System.out.println(a);
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

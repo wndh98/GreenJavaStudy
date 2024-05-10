@@ -1,0 +1,12 @@
+package cs01_if;
+
+public class If03 {
+
+	public static void main(String[] args) {
+		// random으로 점수(score)를 받아 학점(grade) 주기
+
+		// 0~59: F / 60~69:D / 70~79:C / 80~89:B / 90~100:A
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

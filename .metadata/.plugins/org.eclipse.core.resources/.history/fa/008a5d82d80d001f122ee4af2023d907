@@ -1,0 +1,17 @@
+package cs03_for;
+
+public class For01 {
+	/*
+	for(초기식; 반복 조건; 증감식) {
+	   for(시작값; 끝값; step) {
+	      수행할 명령;
+	   }
+	}
+	*/
+
+	public static void main(String[] args) {
+
+	}
+
+}
+//

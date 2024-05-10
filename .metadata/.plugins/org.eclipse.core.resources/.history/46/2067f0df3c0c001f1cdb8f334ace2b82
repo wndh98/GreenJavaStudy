@@ -1,0 +1,16 @@
+package variable;
+
+public class Var03 {
+	
+	int num=10;
+	
+	public static void main(String[] args) {
+//		º¯¼öÀÇ scope
+		int num1 = 50;
+		//System.out.println(num);
+		System.out.println(num1);
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package dataType;
+
+public class Casting02 {
+
+	public static void main(String[] args) {
+		int intV = 10;
+		double doubleV = 5.5;
+		double resultD = intV + doubleV;//자동 형변환 int + double -> double
+		System.out.println(resultD);
+//		int resultI = intV + (int)doubleV;
+		int resultI = (int)(intV + doubleV);
+		System.out.println(resultI);
+	
+		char a = 'A';
+		char b = 'A' + 1;
+		System.out.println(b);
+	}
+
+}
+// 

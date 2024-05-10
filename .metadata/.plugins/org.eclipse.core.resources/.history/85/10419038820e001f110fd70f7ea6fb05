@@ -1,0 +1,8 @@
+package cs04_while_doWhile;
+
+public class While01 {
+
+	public static void main(String[] args) {
+	}
+
+}

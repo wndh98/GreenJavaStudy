@@ -1,0 +1,25 @@
+package dataType;
+
+import java.util.Scanner;
+
+//import java.util.Scanner;
+
+public class ScannerEx {
+
+	public static void main(String[] args) {
+		// Scanner를 사용하려면 먼저 객체를 생성해야 함
+		// - data 소스를 system의 inputstream으로 정함
+		Scanner scan = new Scanner(System.in);
+		System.out.println("첫 번째 정수를 입력하시오.");
+		String str = scan.nextLine();
+		System.out.println(str);
+
+		System.out.println("두 번째 정수를 입력하시오.");
+		int num2 = scan.nextInt();
+		System.out.println(num2);
+
+		System.out.println("첫 번째 입력값 " + str + " 와 두번째 입력값 " + num2 + " 의 합계는 " + (str + num2) + " 입니다.\n");
+		System.out.printf("첫 번째 입력값 %d 와 두번째 입력값 %d 의 합계는 %d 입니다.\n", str, num2, str + num2);
+	}
+
+}

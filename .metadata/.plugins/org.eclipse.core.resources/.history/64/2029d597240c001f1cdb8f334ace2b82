@@ -1,0 +1,13 @@
+
+// html 주석<!-- -->
+// css 주석/**/
+// javascript 주석   한줄 주석//  여러줄 주석/**/
+
+public class Comment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

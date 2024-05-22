@@ -1,9 +1,0 @@
-package dataType;
-
-public class TempConvertor {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

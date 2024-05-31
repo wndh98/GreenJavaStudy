@@ -60,9 +60,7 @@ class Taxi extends Car {
 
 }
 
-class Bus extends Car {
 
-}
 
 public class In02 {
 	public static void main(String[] args) {

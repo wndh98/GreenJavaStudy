@@ -1,22 +1,19 @@
 package backjoon;
 
-import java.util.Scanner;
+class Solution {
+    public int solution(String s) {
+        String[] strArr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+        for(int i = 0; i < strArr.length; i++) {
+            s = s.replaceAll(strArr[i], Integer.toString(i));
+        }
+        return Integer.parseInt(s);
+    }
+}
 
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int A=sc.nextInt();
-		int B=sc.nextInt();
-		int V=sc.nextInt();
-		int C=A-B;
-		int cnt=0;
-		for(V-=A;V>=0;cnt++) {
-			V-=C;
-			
-		}
-		System.out.println(cnt);
-		sc.close();
+
 	}
 
 }

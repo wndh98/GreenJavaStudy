@@ -1,0 +1,96 @@
+함수,메소드(method),펑션(function) 사용법
+
+접근자 final static 리턴데이터타입 함수명(매개변수){
+	실행문
+	return 리턴데이터타입에 맞는 데이터
+}
+접근자
+	생략시 default 가 기본으로 들어간다
+	public private protected default 가 있다.
+	public의 경우 모든곳에서 접근 가능
+	private 의 경우 자신의 클래스 안에서만 접근가능
+	protected의 경우 자신과 상속받은 자식에서 접근가능
+	default 자신과 같은 패키지 안에서만 접근가능
+
+final 
+	final 키워드는 생략이 가능하다
+	생략시 final 키워드는 기능하지 않는다
+	final 키워드 사용시 오버라이딩을 금지한다
+	오버라이딩이란
+	클래스를 상속받았을경우에 자식클래스에서
+	해당함수를 재정의 하는것을 의미한다.
+	
+static
+	static 키워드는 생략 가능하다
+	생략시 static 키워드는 기능하지 않는다
+	static 키워드 사용시 객체생성 없이 호출할수 있다.
+	객체생성후 해당 객체를 통해 사용가능하지만 추천하지 않는다
+	Math.random() 의 경우가 static 메소드 이다.
+	
+리턴데이터타입
+	리턴 데이터 타입은 생략할수없다.
+	리턴해야되는 데이터 타입을 명시하는것 
+	void,int,String,int[] 등등 모든 데이터 타입이
+	들어갈 수 있다.(Parcel 과 같이 자기가 만든 클래스 또한 들어갈수 있다.)
+	void를 제외한 모든 데이터 타입을 입력시
+	반드시 return 값으로 해당 데이터 타입의 값을 return 해줘야 한다.
+	void의 경우 return; 을 사용시 해당 함수는 종료된다.
+	
+함수명
+	함수명은 해당 기능을 잘 설명할수 있는 키워드로 
+	이름을 지어주는게 좋다.
+	첫단어는 소문자로 작성하지만 이어지는 단어부터는 첫글자는 대문자로 작성한다.
+	예) checkItemNum  --> 이렇게 작성하는것을 카멜 케이스 ,카멜 표기법 이라고 한다 (낙타처럼 울퉁불퉁하다는 뜻)
+	
+	
+매개변수
+	함수를 사용할때 필요한 인자(값) 들이 있을때 작성한다
+	괄호() 안에 내용은 생략할수 있으나 
+	생략시 인자를 받을수 없다.
+	매개변호를 입력시에는 함수를 실행할때 반드시 인자를 
+	매개변수를 선언한 갯수와 데이터 타입에 맞춰 입력해줘야 한다.
+	sum(int a,int b) 로 함수를 선언했다면
+	사용시에는 sum(1,2) 로 인트값 2개를 넘겨줘야한다.
+	물론 숫자 대신 int 형 변수를 넘겨주어도 된다.
+	
+
+실행문
+	함수의 기능을 구현하면된다.
+	
+return
+	리턴데이터타입에 맞춰 return 값을 입력해주면 된다.
+	
+	
+	
+사용 예시
+	public Main{
+		public int sum(int a, int b){
+			int result = a + b;
+			return result;
+		}
+		
+		public static int subtract(int a, int b){
+			int result = a - b;
+			return result;
+		}
+		
+		public static void main(String[] args){
+			int x=1;
+			int sum=0;
+			Main m1=new Main();
+			sum=m1.sum(x,2);
+			
+			System.out.println(sum);
+			//결과값 3;
+			
+			int result =0;
+			result = Main.subtract(sum,1);
+			
+			System.out.println(result);
+			//결과값 2;
+			
+		}
+	}
+	
+	
+	

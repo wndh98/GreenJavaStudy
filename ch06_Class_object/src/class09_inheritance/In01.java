@@ -4,7 +4,7 @@ class A {
 	int a = 1;
 
 	void a() {
-		int c=0;
+		int c = 0;
 		c++;
 		System.out.println("parent a()");
 	}
@@ -26,7 +26,7 @@ class B extends A {
 	int b = 2;
 
 	int a = 7;
-	
+
 	void b() {
 		System.out.println("child b()");
 	}
@@ -36,7 +36,7 @@ class B extends A {
 	void a() {
 		// TODO Auto-generated method stub
 		super.a();
-	
+
 		System.out.println("child a()");
 	}
 
@@ -70,16 +70,9 @@ public class In01 {
 		// 부모 타입인 자식이 자기 변수나 메소드를 사용하려면 - 자식 타입으로 돌아와야 함
 		System.out.println(((B) a2).b);
 		((B) a2).b();
-		
 
-		
 	}
 
 }
 
-
-
 // 
-
-
-
